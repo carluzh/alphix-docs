@@ -20,11 +20,7 @@ layout:
     visible: true
 ---
 
-# Swap
-
-{% hint style="info" %}
-Swapping requires a balance of tokens, which can be claimed through our Faucet in the sidebar. Refer to [Beta Access](beta.md).
-{% endhint %}
+# Swap Tokens
 
 The [Swap](https://www.alphix.fi/swap) page lets you exchange tokens through **Unified Pools**.
 

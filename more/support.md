@@ -30,7 +30,7 @@ layout:
 
 **What are Hooks and why do they matter?**
 
-> Hooks are modular smart contracts introduced in Uniswap V4 and adopted by several other top DEXs like Balancer and Pancake Swap. They can run extra logic at key points in a pool’s lifecycle (swaps, liquidity changes, etc.). Alphix uses Hooks to embed advanced features — like dynamic fees, liquidity rehypothecation, or anti-sandwich protection — directly into a single pool. This makes Alphix more flexible and feature-rich than traditional AMMs.
+> Hooks are modular smart contracts introduced in Uniswap V4 and adopted by several other top DEXs like Balancer and Pancake Swap. They can run extra logic at key points in a pool's lifecycle (swaps, liquidity changes, etc.). Alphix uses Hooks to embed advanced features — like Dynamic Fees, Unified Yield, or Internalizing MEV — directly into a single pool. This makes Alphix more flexible and feature-rich than traditional AMMs.
 
 **How does Alphix keep my funds safe?**
 

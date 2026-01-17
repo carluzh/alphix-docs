@@ -20,11 +20,7 @@ layout:
     visible: true
 ---
 
-# Liquidity
-
-{% hint style="info" %}
-Providing Liquidity requires a balance of tokens, which can be claimed through our Faucet in the sidebar. Refer to [Beta Access](beta.md).
-{% endhint %}
+# Add Liquidity
 
 The Liquidity section of the Alphix App is your hub for exploring and managing liquidity across all **Unified Pools**. It’s divided into two main views.
 
@@ -106,7 +102,7 @@ Zapping adds an initial swap to the LP flow. This swap uses the preset user-set 
 
 **Claim Fees**
 
-<mark style="color:$info;">Accumulated Fees can be claimed independently at any time without changing the position. No approval is required. This action can also be done through</mark> [portfolio.md](portfolio.md "mention") <mark style="color:$info;">where the user has an overview over all positions.</mark>
+<mark style="color:$info;">Accumulated Fees can be claimed independently at any time without changing the position. No approval is required.</mark>
 
 **Increase Liquidity**
 

@@ -26,11 +26,16 @@ Decentralized Finance (DeFi) markets are evolving toward hook-based architecture
 
 **Alphix it** introducing **Unified Pools**<mark style="color:$info;">.</mark>&#x20;
 
-By building a flexible, modular hook layer on top of Uniswap V4, Alphix combines exciting features into a single pool. At the core of this layer sit Dynamic Fees - the first feature, chosen to make Unified Pools immediately competitive by vampiring volume and liquidity.
+By building a flexible, modular hook layer on top of Uniswap V4, Alphix combines multiple features into a single pool:
+
+* **Dynamic Fees** — Swap fees that adjust to market conditions, making pools competitive across volatility regimes.
+* **Unified Yield** — Idle liquidity deployed to Aave, earning yield even when not actively used in swaps.
+
+Together, these features maximize capital efficiency for LPs while offering traders consistently competitive execution.
 
 ***
 
-**Our MIssion**
+**Our Mission**
 
 * [x] **LPs** earn more from a single and efficient position (per token pair).
 * [x] **Traders** get better execution through competitive swap fees and deeper liquidity.

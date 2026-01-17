@@ -1,6 +1,6 @@
 ---
 description: >-
-  At Alphix security is non-negotiable. We are comitted to maintaining the
+  At Alphix security is non-negotiable. We are committed to maintaining the
   highest standards of safety for our protocol and users through rigorous
   audits.
 ---
