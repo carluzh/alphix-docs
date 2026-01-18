@@ -36,10 +36,10 @@ We design hooks that are flexible, customizable, and modular. This creates a sin
 ### Products
 
 <table data-card-size="large" data-view="cards">
-<thead><tr><th></th><th></th></tr></thead>
+<thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead>
 <tbody>
-<tr><td><strong>Dynamic Fees</strong></td><td>Swap fees adjust based on market volatility and pool type. LPs earn higher risk-adjusted returns without managing multiple positions.</td></tr>
-<tr><td><strong>Unified Yield</strong></td><td>Idle liquidity is deployed to Aave, earning yield even when not actively used in swaps. Positions generate passive returns automatically.</td></tr>
+<tr><td><strong>Dynamic Fees</strong></td><td>Swap fees adjust based on market volatility and pool type. LPs earn higher risk-adjusted returns without managing multiple positions.</td><td><a href=".gitbook/assets/DY-(card).jpg">DY-(card).jpg</a></td></tr>
+<tr><td><strong>Unified Yield</strong></td><td>Idle liquidity is deployed to Aave, earning yield even when not actively used in swaps. Positions generate passive returns automatically.</td><td><a href=".gitbook/assets/UY-(card).jpg">UY-(card).jpg</a></td></tr>
 </tbody>
 </table>
 
