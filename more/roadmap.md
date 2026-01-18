@@ -26,7 +26,7 @@ layout:
 
 **Dynamic Fees** ✓
 
-<mark style="color:$info;">Our core feature — swap fees that adjust to market conditions, making pools competitive across volatility regimes. Live on Base Mainnet.</mark>
+<mark style="color:$info;">Our core feature. Swap fees that adjust to market conditions, making pools competitive across volatility regimes. Live on Base Mainnet.</mark>
 
 **Unified Yield** ✓
 

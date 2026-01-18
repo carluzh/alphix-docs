@@ -26,7 +26,7 @@ Traditional liquidity provision has a fundamental inefficiency: LP funds sit idl
 
 Unified Yield solves this by deploying idle liquidity to Aave, allowing LPs to earn lending yield continuously while remaining fully available for swaps through Just-In-Time (JIT) accounting.
 
-The result is a dual-yield position. LPs earn swap fees from trading activity AND lending yield from Aave — simultaneously, from the same capital.
+The result is a dual-yield position. LPs earn swap fees from trading activity AND lending yield from Aave, simultaneously, from the same capital.
 
 {% hint style="info" %}
 Unified Yield positions use ERC-4626 vault shares, a tokenized representation of your deposit that automatically accrues yield.
@@ -58,7 +58,7 @@ When a swap occurs, the Hook uses flash accounting to make your liquidity virtua
 
 1. **beforeSwap**: Liquidity is flash-added to the pool
 2. **Swap executes**: Against full available liquidity
-3. **afterSwap**: Net amounts settle — tokens received go to Aave, tokens sent come from Aave
+3. **afterSwap**: Net amounts settle. Tokens received go to Aave, tokens sent come from Aave
 
 Your capital earns the swap fee while never actually leaving the yield-generating position.
 {% endstep %}
@@ -78,7 +78,7 @@ The liquidity is only "in the pool" at the exact moment of the swap. No capital 
 
 Unified Yield positions differ from standard concentrated liquidity positions in several ways:
 
-<table data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><strong>Full Range</strong></td><td>Positions cover all prices. No range management required — you're always in range.</td></tr><tr><td><strong>Vault Shares</strong></td><td>You receive ERC-4626 shares instead of an NFT. Shares are fungible and automatically accrue yield.</td></tr><tr><td><strong>Dual Yield</strong></td><td>Earn from two sources: swap fees from trading activity and lending yield from Aave.</td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><strong>Full Range</strong></td><td>Positions cover all prices. No range management required. You're always in range.</td></tr><tr><td><strong>Vault Shares</strong></td><td>You receive ERC-4626 shares instead of an NFT. Shares are fungible and automatically accrue yield.</td></tr><tr><td><strong>Dual Yield</strong></td><td>Earn from two sources: swap fees from trading activity and lending yield from Aave.</td></tr></tbody></table>
 
 <details>
 
@@ -106,9 +106,9 @@ Unified Yield APR is calculated as the average of both tokens' Aave lending rate
 
 Unified Yield works with assets that have liquid Aave markets. Currently supported:
 
-* **ETH** — Via Aave's aWETH
-* **USDC** — Via Aave's aUSDC
-* **USDS** — Via Aave's aUSDS
+* **ETH** - Via Aave's aWETH
+* **USDC** - Via Aave's aUSDC
+* **USDS** - Via Aave's aUSDS
 
 Each pool's Hook deposits into the corresponding Aave vaults for its token pair.
 

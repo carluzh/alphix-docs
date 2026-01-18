@@ -28,9 +28,9 @@ layout:
 
 Points are earned through protocol activity:
 
-* **Swapping** — Earn Points on every swap
-* **Providing Liquidity** — Earn Points based on position size and duration
-* **Referrals** — Earn bonus Points when referred users are active
+* **Swapping** - Earn Points on every swap
+* **Providing Liquidity** - Earn Points based on position size and duration
+* **Referrals** - Earn bonus Points when referred users are active
 
 ### Distribution Schedule
 
@@ -48,7 +48,7 @@ Track your Points and ranking at [alphix.fi/points](https://alphix.fi/points)
 
 ### Referral Program
 
-Invite others to Alphix and earn a **10% bonus** on their Points — at no cost to the referred user. Your referral link is available on the Points page once you've connected your wallet.
+Invite others to Alphix and earn a **10% bonus** on their Points at no cost to the referred user. Your referral link is available on the Points page once you've connected your wallet.
 
 ### Why Points Matter
 

@@ -42,9 +42,7 @@ Choose which pool to provide liquidity for. Each pool displays its current APR, 
 
 ![](../.gitbook/assets/Select.jpg)
 
-We propose users select **Unified Yield** to LP into Unified Pools.
-
-> Your liquidity earns swap fees while idle capital is deployed to lending markets. Stable pools use concentrated positions. Standard pools use full range.
+We propose users select **Unified Yield** to LP into Unified Pools. Your liquidity earns swap fees while idle capital is deployed to lending markets. Stable pools use concentrated positions. Standard pools use full range.
 
 {% hint style="info" %}
 **Custom Range** is for advanced users who want manual price ranges.
@@ -70,13 +68,19 @@ Single-token deposits are coming soon.
 
 Review your position details, approve the tokens, and create your position. Once confirmed, you'll start earning immediately.
 {% endstep %}
+
+{% step %}
+<mark style="color:green;">**Position Created ✓**</mark>
+
+Your position is now active and earning yield.
+{% endstep %}
 {% endstepper %}
 
 ***
 
 ### Managing Positions
 
-Once created, manage positions from the Pool page or your Portfolio. Claim fees anytime, add more capital, or withdraw — accrued fees are claimed automatically.
+Once created, manage positions from the Pool page or your Portfolio. Claim fees anytime, add more capital, or withdraw. Accrued fees are always claimed automatically.
 
 ***
 
