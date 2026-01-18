@@ -41,7 +41,7 @@ We design hooks that are flexible, customizable, and modular. This creates a sin
 
 ### Points
 
-Alphix rewards early users with Points. Earn through swapping, providing liquidity, and referrals. Points accumulate across seasons — 100,000 distributed weekly based on your share of protocol activity.
+Alphix rewards early users with Points. Earn through swapping, providing liquidity, and referrals. Points accumulate across seasons, with 100,000 distributed weekly based on your share of protocol activity.
 
 {% hint style="info" %}
 Track your Points and ranking at [alphix.fi/points](https://alphix.fi/points)
