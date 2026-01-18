@@ -37,7 +37,7 @@ We design hooks that are flexible, customizable, and modular. This creates a sin
 
 ### Products
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Dynamic Fees</strong></td><td>Swap fees adjust continuously based on market volatility and pool type. LPs earn higher risk-adjusted returns without position management.</td><td><a href=".gitbook/assets/DY-(card).jpg">DY-(card).jpg</a></td></tr><tr><td><strong>Unified Yield</strong></td><td>Idle liquidity is lent out on lending markets when not needed for swaps. Unified Pools generate passive returns from two yield sources.</td><td><a href=".gitbook/assets/UY-(card).jpg">UY-(card).jpg</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Dynamic Fees</strong></td><td>Swap fees adjust continuously based on market volatility and pool type. LPs earn higher risk-adjusted returns without position management.</td><td><a href=".gitbook/assets/DY-(card).jpg">DY-(card).jpg</a></td><td><a href="products/dynamic-fee.md">dynamic-fee.md</a></td></tr><tr><td><strong>Unified Yield</strong></td><td>Idle liquidity is lent out on lending markets when not needed for swaps. Unified Pools generate passive returns from two yield sources.</td><td><a href=".gitbook/assets/UY-(card).jpg">UY-(card).jpg</a></td><td><a href="products/unified-yield.md">unified-yield.md</a></td></tr></tbody></table>
 
 ### Points
 
