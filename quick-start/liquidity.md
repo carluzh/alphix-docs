@@ -32,11 +32,15 @@ This guide walks through creating a liquidity position on Alphix. To get started
 {% step %}
 **Select Pool**
 
+<figure><img src="../.gitbook/assets/QuickStart.png" alt=""><figcaption></figcaption></figure>
+
 Choose which pool to provide liquidity for. Each pool displays its current APR, combining swap fees and lending yield.
 {% endstep %}
 
 {% step %}
 **Choose Strategy**
+
+<figure><img src="../.gitbook/assets/QuickStart.png" alt=""><figcaption></figcaption></figure>
 
 We propose users select **Unified Yield** to LP into Unified Pools. Your liquidity earns swap fees while idle capital is automatically deployed to lending markets for additional yield. In stable pools, positions are inherently concentrated. In standard pools, positions use full range.
 
@@ -48,6 +52,8 @@ We propose users select **Unified Yield** to LP into Unified Pools. Your liquidi
 {% step %}
 **Enter Deposit Amounts**
 
+<figure><img src="../.gitbook/assets/QuickStart.png" alt=""><figcaption></figcaption></figure>
+
 Input how much of each token to deposit. The interface shows your wallet balance and auto-fills the corresponding token amount.
 
 {% hint style="info" %}
@@ -57,6 +63,8 @@ Single-token deposits are coming soon.
 
 {% step %}
 **Review and Create**
+
+<figure><img src="../.gitbook/assets/QuickStart.png" alt=""><figcaption></figcaption></figure>
 
 Review your position details, approve the tokens, and create your position. Once confirmed, you'll start earning immediately.
 {% endstep %}
