@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/Unified-Yield-Banner.png
+cover: ../.gitbook/assets/UY.jpg
 coverY: 0
 layout:
   width: default
