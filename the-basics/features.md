@@ -22,6 +22,8 @@ layout:
 
 # Key Features
 
+An overview of the core products that make Unified Pools powerful.
+
 ### Dynamic Fees
 
 Dynamic Fees are a direct improvement on the fee-tier system seen across leading DEXs. They improve the experience for LPs who no longer need to choose and rebalance between fee tiers to optimize yield and allow for more context-rich trade execution.
@@ -36,13 +38,9 @@ Alphix takes a fundamentally different approach. By leveraging pool internal dat
 
 ### Unified Yield
 
-Unified Yield deploys idle liquidity into yield strategies, generating additional returns beyond trading fees. The result is a dual income stream for LPs without fragmenting the Unified Pool structure.
+Unified Yield deploys idle liquidity into lending markets, generating additional returns beyond trading fees. The result is a dual income stream for LPs without fragmenting the Unified Pool structure. Slippage is not negatively influenced as liquidity is recalled instantly via JIT (Just-In-Time) accounting when swaps occur. <mark style="color:$info;">More yield. Same Execution.</mark>
 
-{% hint style="info" %}
-Idle Liquidity could instead be reinjected into the pool: Liquidity Rebalancing
-{% endhint %}
-
-Unified Yield operates under strict risk controls with real-time monitoring and rapid recall mechanisms to ensure the displayed liquidity remains available for trades. This maximizes capital efficiency while maintaining deep liquidity. <mark style="color:$info;">More yield. Same Execution.</mark>
+This creates a yield floor for liquidity providers. Even during periods of low trading activity, positions continue earning lending yield. LPs no longer face the opportunity cost of idle capital as liquidity in Unified Pools is always productive.
 
 {% content-ref url="../products/unified-yield.md" %}
 [unified-yield.md](../products/unified-yield.md)
