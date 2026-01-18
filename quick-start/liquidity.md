@@ -42,10 +42,12 @@ Choose which pool to provide liquidity for. Each pool displays its current APR, 
 
 ![](../.gitbook/assets/Select.jpg)
 
-We propose users select **Unified Yield** to LP into Unified Pools. Your liquidity earns swap fees while idle capital is automatically deployed to lending markets for additional yield. In stable pools, positions are inherently concentrated. In standard pools, positions use full range.
+We propose users select **Unified Yield** to LP into Unified Pools.
+
+> Your liquidity earns swap fees while idle capital is deployed to lending markets. Stable pools use concentrated positions. Standard pools use full range.
 
 {% hint style="info" %}
-**Custom Range** is available for sophisticated users who want concentrated positions with user-defined price ranges. This increases Impermanent Loss exposure and management overhead.
+**Custom Range** is for advanced users who want manual price ranges.
 {% endhint %}
 {% endstep %}
 
@@ -56,7 +58,7 @@ We propose users select **Unified Yield** to LP into Unified Pools. Your liquidi
 
 Input how much of each token to deposit. The interface shows your wallet balance and auto-fills the corresponding token amount.
 
-{% hint style="info" %}
+{% hint style="success" %}
 Single-token deposits are coming soon.
 {% endhint %}
 {% endstep %}
@@ -74,29 +76,19 @@ Review your position details, approve the tokens, and create your position. Once
 
 ### Managing Positions
 
-Once created, manage your positions from the Pool page or your Portfolio.
-
-**Claim Fees**
-
-Accumulated fees can be claimed at any time without modifying your position.
-
-**Increase Liquidity**
-
-Add more capital to an existing position. Unclaimed fees are automatically compounded.
-
-**Withdraw Liquidity**
-
-Remove part or all of your position. Accrued fees are claimed automatically with the withdrawal.
+Once created, manage positions from the Pool page or your Portfolio. Claim fees anytime, add more capital, or withdraw — accrued fees are claimed automatically.
 
 ***
 
 ### Liquidity Provisioning Risks
 
-{% hint style="danger" %}
+{% hint style="warning" %}
 Providing liquidity carries risks that users should understand before committing capital.
 {% endhint %}
 
-**Impermanent Loss (IL)**
+<details>
+
+<summary><mark style="color:$info;">Impermanent Loss (IL)</mark></summary>
 
 When providing liquidity, your assets are exposed to price changes between the two tokens. If prices diverge significantly, your position value may be lower than simply holding the tokens.
 
@@ -106,6 +98,12 @@ When providing liquidity, your assets are exposed to price changes between the t
 
 Read more about [Impermanent Loss](https://blog.ston.fi/impermanent-loss-explained-a-guide-for-defi-liquidity-providers/).
 
-**Smart Contract Risk**
+</details>
+
+<details>
+
+<summary><mark style="color:$info;">Smart Contract Risk</mark></summary>
 
 Smart contracts carry inherent risk. We strongly encourage LPs to do their own research. Alphix is built on top of well-established protocols like Uniswap V4 and follows official standards. Core contracts have been audited by reputable third-party firms.
+
+</details>
