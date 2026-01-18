@@ -32,7 +32,15 @@ Points are earned through protocol activity:
 * **Providing Liquidity** — Earn Points based on position size and duration
 * **Referrals** — Earn bonus Points when referred users are active
 
-Points accumulate in **Seasons**. Each season runs for a set period, with distributions happening weekly.
+### Distribution Schedule
+
+| Detail | Value |
+| ------ | ----- |
+| Weekly Distribution | 100,000 Points |
+| Snapshots | Hourly |
+| Season 0 Duration | 3 months |
+
+Points are distributed weekly based on your share of protocol activity. Snapshots are taken hourly to ensure accurate tracking of swaps and LP positions.
 
 {% hint style="info" %}
 Track your Points and ranking at [alphix.fi/points](https://alphix.fi/points)
@@ -40,11 +48,7 @@ Track your Points and ranking at [alphix.fi/points](https://alphix.fi/points)
 
 ### Referral Program
 
-Invite others to Alphix and earn a **10% bonus** on their Points. Your referral link is available on the Points page once you've connected your wallet.
-
-{% hint style="warning" %}
-Referral bonuses are only available to eligible users.
-{% endhint %}
+Invite others to Alphix and earn a **10% bonus** on their Points — at no cost to the referred user. Your referral link is available on the Points page once you've connected your wallet.
 
 ### Why Points Matter
 

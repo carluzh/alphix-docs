@@ -1,8 +1,27 @@
 # Smart Contracts
 
-### Testnet (Base Sepolia)
+### Mainnet (Base)
 
-Core Contracts
+{% hint style="success" %}
+Alphix is live on Base Mainnet.
+{% endhint %}
+
+**Active Pools**
+
+| Pool | Status |
+| ---- | ------ |
+| ETH/USDC | Live |
+| USDC/USDS | Live |
+
+Contract addresses will be published here soon.
+
+***
+
+<details>
+
+<summary>Testnet (Base Sepolia)</summary>
+
+**Core Contracts**
 
 | Contract                            | Address                                    |
 | ----------------------------------- | ------------------------------------------ |
@@ -11,7 +30,7 @@ Core Contracts
 | ALPHIX\_LOGIC\_IMPL\_BASE\_SEPOLIA  | 0x3c59d4d01682c6180a564f52573C07372bD07cb0 |
 | ALPHIX\_LOGIC\_PROXY\_BASE\_SEPOLIA | 0x8768950eB999Faa53c8b0aA0Cd7dCC19b9D23A34 |
 
-<mark style="color:$info;">**Active Pools**</mark>
+**Active Pools**
 
 | Pool        | Address                                                            |
 | ----------- | ------------------------------------------------------------------ |
@@ -23,4 +42,4 @@ Core Contracts
 | aUSDC/aDAI  | 0x4bd4386e6ef583af6cea0e010a7118f41c4d3315e88b81a88fc7fd3822bf766b |
 | aDAI/aETH   | 0x47da32fed07f99dc9a10744a58f43bf563909d8b46203c300487caf3edd8b1f3 |
 
-### Mainnet (Coming Soon)
+</details>

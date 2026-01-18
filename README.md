@@ -49,7 +49,7 @@ Early users earn Points for every swap and LP action. Points accumulate across s
 
 ### Audits and Security
 
-Alphix smart contracts have been audited by Sherlock. Read more in the [Security](tech/security.md) section.
+Alphix core contracts have been audited by Sherlock. Read more in the [Security](tech/security.md) section.
 
 All security inquiries: [security@alphix.fi](mailto:security@alphix.fi)
 

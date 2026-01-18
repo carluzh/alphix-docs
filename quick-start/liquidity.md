@@ -140,4 +140,4 @@ Read more about [<mark style="color:$info;">Impermanent Loss</mark>](https://blo
 
 Smart contracts carry inherent risk. We strongly encourage LPs to do their own research.&#x20;
 
-Alphix is built on top of well-established protocols like Uniswap v4 and follows official standards. In addition, a clear audit roadmap ensures external experts review every release before mainnet deployment.
+Alphix is built on top of well-established protocols like Uniswap v4 and follows official standards. Core contracts have been audited by reputable third-party firms.

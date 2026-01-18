@@ -38,7 +38,7 @@ layout:
 
 **On which networks is Alphix deployed?**
 
-> Alphix is currently live on <mark style="color:$info;">**Base Mainnet.**</mark> All our contracts are verified and audited. We are exploring an expansion to Unichain in the future.
+> Alphix is currently live on <mark style="color:$info;">**Base Mainnet.**</mark> Core contracts have been audited. We are exploring an expansion to Unichain in the future.
 
 **Why Base?**
 
@@ -49,7 +49,7 @@ layout:
 > * Integrate easily with other Base-native projects and liquidity sources.
 > * Position itself in one of the fastest-growing L2 ecosystems.
 >
-> Once Alphix has completed audits and proved the competitiveness of its hook, we will be ready to scale beyond Base. We have our eyes on Unichain to support our core but we are open to suggestions!
+> As Alphix continues to grow and prove the competitiveness of its hook, we will scale beyond Base. We have our eyes on Unichain but are open to suggestions!
 
 #### Contact Us
 
