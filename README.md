@@ -37,11 +37,11 @@ We design hooks that are flexible, customizable, and modular. This creates a sin
 
 ### Products
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Dynamic Fees</strong></td><td>Swap fees adjust based on market volatility and pool type. LPs earn higher risk-adjusted returns without managing multiple positions.</td><td><a href=".gitbook/assets/DY-(card).jpg">DY-(card).jpg</a></td></tr><tr><td><strong>Unified Yield</strong></td><td>Idle liquidity is deployed to Aave, earning yield even when not actively used in swaps. Positions generate passive returns automatically.</td><td><a href=".gitbook/assets/UY-(card).jpg">UY-(card).jpg</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Dynamic Fees</strong></td><td>Swap fees adjust continuously based on market volatility and pool type. LPs earn higher risk-adjusted returns without position management.</td><td><a href=".gitbook/assets/DY-(card).jpg">DY-(card).jpg</a></td></tr><tr><td><strong>Unified Yield</strong></td><td>Idle liquidity is lent out on lending markets when not needed for swaps. Unified Pools generate passive returns from two yield sources.</td><td><a href=".gitbook/assets/UY-(card).jpg">UY-(card).jpg</a></td></tr></tbody></table>
 
 ### Points
 
-Alphix rewards early users with Points. Earn through swapping, providing liquidity, and referrals. Points accumulate across seasons, with 100,000 distributed weekly based on your share of protocol activity.
+Alphix rewards early users with Points. Earn through providing liquidity, swapping, and referring users. Activity snapshots occur hourly and Points are distributed every Thursday at 02:00 UTC.
 
 {% hint style="info" %}
 Track your Points and ranking at [alphix.fi/points](https://alphix.fi/points)
