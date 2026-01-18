@@ -22,7 +22,7 @@ layout:
 
 # Swap Tokens
 
-The [Swap](https://www.alphix.fi/swap) page lets you exchange tokens through **Unified Pools**.
+Learn how to swap tokens on Alphix with dynamic fees and streamlined approvals.
 
 #### **UI Elements**
 

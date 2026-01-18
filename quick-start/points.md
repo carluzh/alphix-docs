@@ -22,7 +22,7 @@ layout:
 
 # Earn Points
 
-Alphix rewards early users with Points. Every interaction on the protocol contributes to your total.
+Learn how Points work, how they're distributed, and how to maximize your rewards.
 
 ### How Points Work
 
