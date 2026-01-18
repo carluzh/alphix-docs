@@ -1,7 +1,7 @@
 ---
 description: >-
-  Alphix is an upgradeable Uniswap V4 Hook designed to combine multiple features
-  into a Unified Pool.
+  Welcome to the Alphix documentation. This guide covers the core concepts,
+  architecture, and usage of the protocol.
 cover: .gitbook/assets/Docs_Header.png
 coverY: 0
 layout:
@@ -25,8 +25,6 @@ layout:
 
 # Introduction
 
-Welcome to the Alphix documentation. This guide covers the core concepts, architecture, and usage of the protocol.
-
 {% hint style="success" %}
 Alphix is live on **Base Mainnet**. Start earning points today.
 {% endhint %}
@@ -39,13 +37,7 @@ We design hooks that are flexible, customizable, and modular. This creates a sin
 
 ### Products
 
-<table data-card-size="large" data-view="cards">
-<thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead>
-<tbody>
-<tr><td><strong>Dynamic Fees</strong></td><td>Swap fees adjust based on market volatility and pool type. LPs earn higher risk-adjusted returns without managing multiple positions.</td><td><a href=".gitbook/assets/DY-(card).jpg">DY-(card).jpg</a></td></tr>
-<tr><td><strong>Unified Yield</strong></td><td>Idle liquidity is deployed to Aave, earning yield even when not actively used in swaps. Positions generate passive returns automatically.</td><td><a href=".gitbook/assets/UY-(card).jpg">UY-(card).jpg</a></td></tr>
-</tbody>
-</table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Dynamic Fees</strong></td><td>Swap fees adjust based on market volatility and pool type. LPs earn higher risk-adjusted returns without managing multiple positions.</td><td><a href=".gitbook/assets/DY-(card).jpg">DY-(card).jpg</a></td></tr><tr><td><strong>Unified Yield</strong></td><td>Idle liquidity is deployed to Aave, earning yield even when not actively used in swaps. Positions generate passive returns automatically.</td><td><a href=".gitbook/assets/UY-(card).jpg">UY-(card).jpg</a></td></tr></tbody></table>
 
 ### Points
 
@@ -61,7 +53,7 @@ Track your Points and ranking at [alphix.fi/points](https://alphix.fi/points)
 
 ### Audits and Security
 
-Alphix core contracts have been audited by Sherlock. Security is non-negotiable — we follow battle-tested standards and maintain a clear audit roadmap.
+Alphix core contracts have been audited by Sherlock. Security is non-negotiable for us - we follow battle-tested standards and maintain a clear audit roadmap.
 
 All security inquiries: [security@alphix.fi](mailto:security@alphix.fi)
 
