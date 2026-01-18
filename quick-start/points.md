@@ -1,4 +1,6 @@
 ---
+description: >-
+  Learn how Points work, how they're distributed, and how to maximize your rewards.
 cover: ../.gitbook/assets/QuickStart.png
 coverY: 0
 layout:
@@ -21,8 +23,6 @@ layout:
 ---
 
 # Earn Points
-
-Learn how Points work, how they're distributed, and how to maximize your rewards.
 
 ### How Points Work
 

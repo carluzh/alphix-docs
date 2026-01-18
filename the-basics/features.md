@@ -1,4 +1,6 @@
 ---
+description: >-
+  An overview of the core products that make Unified Pools powerful.
 cover: ../.gitbook/assets/Basi.png
 coverY: 0
 layout:
@@ -21,8 +23,6 @@ layout:
 ---
 
 # Key Features
-
-An overview of the core products that make Unified Pools powerful.
 
 ### Dynamic Fees
 

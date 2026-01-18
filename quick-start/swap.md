@@ -1,4 +1,6 @@
 ---
+description: >-
+  Learn how to swap tokens on Alphix with dynamic fees and streamlined approvals.
 cover: ../.gitbook/assets/QuickStart.png
 coverY: 0
 layout:
@@ -21,8 +23,6 @@ layout:
 ---
 
 # Swap Tokens
-
-Learn how to swap tokens on Alphix with dynamic fees and streamlined approvals.
 
 #### **UI Elements**
 

@@ -1,4 +1,6 @@
 ---
+description: >-
+  Learn how to provide liquidity on Alphix, choose a strategy, and manage your positions.
 cover: ../.gitbook/assets/QuickStart.png
 coverY: 0
 layout:
@@ -22,7 +24,9 @@ layout:
 
 # Add Liquidity
 
-Learn how to provide liquidity on Alphix, choose a strategy, and manage your positions.
+### User Guide
+
+This guide walks through creating a liquidity position on Alphix. To get started, navigate to [alphix.fi/liquidity/add](https://alphix.fi/liquidity/add).
 
 {% stepper %}
 {% step %}
