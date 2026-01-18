@@ -17,6 +17,7 @@
 ## PRODUCTS
 
 * [Dynamic Fee](products/dynamic-fee.md)
+* [Unified Yield](products/unified-yield.md)
 
 ## TECH
 
