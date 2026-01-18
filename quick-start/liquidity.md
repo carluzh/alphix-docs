@@ -58,7 +58,7 @@ Providing liquidity on Alphix is designed to feel as smooth as swapping but with
 <mark style="color:$info;">Alphix leverages Uniswap's Concentrated Liquidity Market Maker (CLMM) model. It enables custom price ranges in which deposited liquidity is concentrated instead of spreading all available liquidity across all prices. This increases capital efficiency and earns higher fees.</mark>
 
 {% hint style="warning" %}
-Concentrating liquidity comes with increased Impermanent Loss. We encourage users to research the topic, as the Rehypothecation and Rebalancing products are not activated during the initial launch phase.
+Concentrating liquidity comes with increased Impermanent Loss. We encourage users to research the topic before providing liquidity.
 {% endhint %}
 
 <mark style="color:$info;">The 'Range' interface includes:</mark>

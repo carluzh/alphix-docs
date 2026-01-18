@@ -42,7 +42,11 @@ Unified Yield deploys idle liquidity into yield strategies, generating additiona
 Idle Liquidity could instead be reinjected into the pool: Liquidity Rebalancing
 {% endhint %}
 
-All rehypothecation strategies operate under strict risk controls with real-time monitoring and rapid recall mechanisms to ensure the displayed liquidity remains available for trades. This maximizes capital efficiency while maintaining deep liquidity. <mark style="color:$info;">More yield. Same Execution.</mark>
+Unified Yield operates under strict risk controls with real-time monitoring and rapid recall mechanisms to ensure the displayed liquidity remains available for trades. This maximizes capital efficiency while maintaining deep liquidity. <mark style="color:$info;">More yield. Same Execution.</mark>
+
+{% content-ref url="../products/unified-yield.md" %}
+[unified-yield.md](../products/unified-yield.md)
+{% endcontent-ref %}
 
 ***
 

@@ -36,7 +36,7 @@ The [Swap](https://www.alphix.fi/swap) page lets you exchange tokens through **U
 {% step %}
 **Token Selection**
 
-<mark style="color:$info;">Select from the existing Beta Tokens - aBTC, aETH, aUSDC, aUSDT - to swap between them.</mark>
+<mark style="color:$info;">Select from a growing selection of tokens as new Unified Pools launch.</mark>
 {% endstep %}
 
 {% step %}
