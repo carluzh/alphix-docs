@@ -27,6 +27,10 @@ layout:
 
 Welcome to the Alphix documentation. This guide covers the core concepts, architecture, and usage of the protocol.
 
+{% hint style="success" %}
+Alphix is live on **Base Mainnet**. Start earning points today.
+{% endhint %}
+
 ### What is Alphix?
 
 Alphix is a next-generation decentralized exchange (DEX) built on top of [<mark style="color:$primary;">**Uniswap V4**</mark>](https://docs.uniswap.org/contracts/v4/overview). Our mission is to become the leading platform for Hook-driven innovation by serving as a flexible layer where new products and market mechanisms can be added seamlessly without fragmenting liquidity or breaking composability.
@@ -45,20 +49,28 @@ We design hooks that are flexible, customizable, and modular. This creates a sin
 
 ### Points
 
-Early users earn Points for every swap and LP action. Points accumulate across seasons and will matter. Track your progress at [alphix.fi/points](https://alphix.fi/points).
+Alphix rewards early users with Points. Earn through swapping, providing liquidity, and referrals. Points accumulate across seasons — 100,000 distributed weekly based on your share of protocol activity.
+
+{% hint style="info" %}
+Track your Points and ranking at [alphix.fi/points](https://alphix.fi/points)
+{% endhint %}
+
+{% content-ref url="quick-start/points.md" %}
+[points.md](quick-start/points.md)
+{% endcontent-ref %}
 
 ### Audits and Security
 
-Alphix core contracts have been audited by Sherlock. Read more in the [Security](tech/security.md) section.
+Alphix core contracts have been audited by Sherlock. Security is non-negotiable — we follow battle-tested standards and maintain a clear audit roadmap.
 
 All security inquiries: [security@alphix.fi](mailto:security@alphix.fi)
+
+{% content-ref url="tech/security.md" %}
+[security.md](tech/security.md)
+{% endcontent-ref %}
 
 ### Getting Started
 
 * Explore [Why Alphix](the-basics/why-alphix.md) to understand the value proposition
 * Review [Key Features](the-basics/features.md) for product details
 * Start using the protocol at [alphix.fi](https://alphix.fi)
-
-{% hint style="success" %}
-Alphix is live on **Base Mainnet**.
-{% endhint %}
