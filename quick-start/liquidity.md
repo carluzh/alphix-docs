@@ -26,7 +26,7 @@ layout:
 
 ### User Guide
 
-This guide walks through creating a liquidity position on Alphix. To get started, navigate to [alphix.fi/liquidity/add](https://alphix.fi/liquidity/add).
+This guide walks through creating a liquidity position on Alphix. To get started, navigate to [alphix.fi/liquidity/add](https://alphix.fi/liquidity/add)
 
 {% stepper %}
 {% step %}
@@ -69,20 +69,11 @@ Single-token deposits are coming soon.
 Review your position details, approve the tokens, and create your position. Once confirmed, you'll start earning immediately.
 {% endstep %}
 
-{% step %}
-<mark style="color:green;">**Position Created ✓**</mark>
-
-Your position is now active and earning yield.
-{% endstep %}
 {% endstepper %}
-
-***
 
 ### Managing Positions
 
 Once created, manage positions from the Pool page or your Portfolio. Claim fees anytime, add more capital, or withdraw. Accrued fees are always claimed automatically.
-
-***
 
 ### Liquidity Provisioning Risks
 

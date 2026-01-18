@@ -24,9 +24,9 @@ layout:
 
 Traditional liquidity provision has a fundamental inefficiency: LP funds sit idle in the pool waiting for swaps. In a typical 24-hour period, deposited capital might only be actively used for a fraction of the time. The rest of the time, it earns nothing.
 
-Unified Yield solves this by deploying idle liquidity to Aave, allowing LPs to earn lending yield continuously while remaining fully available for swaps through Just-In-Time (JIT) accounting.
+Unified Yield solves this by routing idle liquidity into yield-generating vaults, allowing LPs to earn lending yield continuously while remaining fully available for swaps through Just-In-Time (JIT) accounting.
 
-The result is a dual-yield position. LPs earn swap fees from trading activity AND lending yield from Aave, simultaneously, from the same capital.
+The result is a dual-yield position. LPs earn swap fees from trading activity AND lending yield from the underlying vaults, simultaneously, from the same capital.
 
 {% hint style="info" %}
 Unified Yield positions use ERC-4626 vault shares, a tokenized representation of your deposit that automatically accrues yield.
@@ -46,7 +46,7 @@ The explanation below is simplified to convey the underlying logic. The producti
 {% step %}
 #### Deposit
 
-When you provide liquidity, your tokens are deposited into the Hook contract. The Hook immediately routes these tokens to underlying Aave vaults, where they begin earning lending yield.
+When you provide liquidity, your tokens are deposited into the Hook contract. The Hook immediately routes these tokens to underlying yield vaults based on the asset's yield strategy, where they begin earning lending yield.
 
 You receive ERC-4626 shares representing your position. These shares automatically appreciate as yield accrues.
 {% endstep %}
@@ -58,7 +58,7 @@ When a swap occurs, the Hook uses flash accounting to make your liquidity virtua
 
 1. **beforeSwap**: Liquidity is flash-added to the pool
 2. **Swap executes**: Against full available liquidity
-3. **afterSwap**: Net amounts settle. Tokens received go to Aave, tokens sent come from Aave
+3. **afterSwap**: Net amounts settle. Tokens received go to the vault, tokens sent come from the vault
 
 Your capital earns the swap fee while never actually leaving the yield-generating position.
 {% endstep %}
@@ -66,7 +66,7 @@ Your capital earns the swap fee while never actually leaving the yield-generatin
 {% step %}
 #### Withdraw
 
-When you withdraw, the Hook burns your shares, retrieves the underlying tokens from Aave (including all accrued yield), and sends them to your wallet.
+When you withdraw, the Hook burns your shares, retrieves the underlying tokens from the vault (including all accrued yield), and sends them to your wallet.
 {% endstep %}
 {% endstepper %}
 
@@ -78,7 +78,7 @@ The liquidity is only "in the pool" at the exact moment of the swap. No capital 
 
 Unified Yield positions differ from standard concentrated liquidity positions in several ways:
 
-<table data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><strong>Full Range</strong></td><td>Positions cover all prices. No range management required. You're always in range.</td></tr><tr><td><strong>Vault Shares</strong></td><td>You receive ERC-4626 shares instead of an NFT. Shares are fungible and automatically accrue yield.</td></tr><tr><td><strong>Dual Yield</strong></td><td>Earn from two sources: swap fees from trading activity and lending yield from Aave.</td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><strong>Simplified Ranges</strong></td><td>Standard pools use full range. Stable pools use concentrated positions. No manual range management required.</td></tr><tr><td><strong>Vault Shares</strong></td><td>You receive ERC-4626 shares instead of an NFT. Shares are fungible and automatically accrue yield.</td></tr><tr><td><strong>Dual Yield</strong></td><td>Earn from two sources: swap fees from trading activity and lending yield from the underlying vaults.</td></tr></tbody></table>
 
 <details>
 
@@ -86,17 +86,12 @@ Unified Yield positions differ from standard concentrated liquidity positions in
 
 Unified Yield positions display a combined APR from multiple sources:
 
-| Component | Source | Typical Range |
-| --------- | ------ | ------------- |
-| Swap APR | Trading fees from swaps | 5-15% |
-| Unified Yield APR | Average Aave lending rate for both tokens | 3-8% |
-| Points Bonus | 50% multiplier on Swap APR during Points campaign | Variable |
+| Component | Source |
+| --------- | ------ |
+| Swap APR | Trading fees from swaps |
+| Unified Yield APR | Average lending rate across both tokens' vaults |
 
-The total APR shown is the sum of all components. Actual returns vary based on pool volume, Aave rates, and market conditions.
-
-{% hint style="info" %}
-Unified Yield APR is calculated as the average of both tokens' Aave lending rates.
-{% endhint %}
+The total APR shown is the sum of all components. Actual returns vary based on pool volume, vault rates, and market conditions.
 
 </details>
 
@@ -104,13 +99,9 @@ Unified Yield APR is calculated as the average of both tokens' Aave lending rate
 
 <summary><mark style="color:$info;">Supported Assets</mark></summary>
 
-Unified Yield works with assets that have liquid Aave markets. Currently supported:
+Unified Yield works with assets that have compatible yield vaults. Each asset is routed to a vault based on its yield strategy.
 
-* **ETH** - Via Aave's aWETH
-* **USDC** - Via Aave's aUSDC
-* **USDS** - Via Aave's aUSDS
-
-Each pool's Hook deposits into the corresponding Aave vaults for its token pair.
+<table data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><strong>ETH</strong></td><td>Wrapped ETH lending vault</td></tr><tr><td><strong>USDC</strong></td><td>USDC lending vault</td></tr><tr><td><strong>USDS</strong></td><td>USDS lending vault</td></tr></tbody></table>
 
 </details>
 
@@ -120,7 +111,7 @@ Each pool's Hook deposits into the corresponding Aave vaults for its token pair.
 
 **Traditional LPs face idle capital.** Funds deposited into a pool only earn when swaps occur. Between trades, capital generates zero return. This inefficiency compounds over time, especially in lower-volume pools.
 
-**Alphix it.** Unified Yield ensures your capital is always working. When not used for swaps, it earns lending yield on Aave. When swaps occur, JIT accounting captures the fees. <mark style="color:$info;">No idle capital. Dual yield streams.</mark>
+**Alphix it.** Unified Yield ensures your capital is always working. When not used for swaps, it earns lending yield in underlying vaults. When swaps occur, JIT accounting captures the fees. <mark style="color:$info;">No idle capital. Dual yield streams.</mark>
 
 {% hint style="success" %}
 Earn swap fees AND lending yield. Capital never sits idle.
@@ -128,7 +119,7 @@ Earn swap fees AND lending yield. Capital never sits idle.
 
 **Traders**
 
-**Traders need deep liquidity.** Shallow pools mean higher slippage. Traditional yield farming often pulls liquidity away from DEXs into lending protocols, fragmenting available depth.
+**Traders need deep liquidity.** Shallow pools mean higher slippage. LPs constantly moving capital between protocols fragments available depth.
 
 **Alphix it.** Unified Yield keeps liquidity in the pool while earning external yield. LPs have no reason to withdraw for better rates elsewhere. This concentrates liquidity and improves execution for traders.
 
