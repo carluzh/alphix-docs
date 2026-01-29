@@ -1,6 +1,5 @@
 ---
-description: >-
-  An overview of the core products that make Unified Pools powerful.
+description: An overview of the core products that make Unified Pools powerful.
 cover: ../.gitbook/assets/Basi.png
 coverY: 0
 layout:
@@ -40,7 +39,7 @@ Alphix takes a fundamentally different approach. By leveraging pool internal dat
 
 Unified Yield deploys idle liquidity into lending markets, generating additional returns beyond trading fees. The result is a dual income stream for LPs without fragmenting the Unified Pool structure. Slippage is not negatively influenced as liquidity is recalled instantly via JIT (Just-In-Time) accounting when swaps occur. <mark style="color:$info;">More yield. Same Execution.</mark>
 
-This creates a yield floor for liquidity providers. Even during periods of low trading activity, positions continue earning lending yield. LPs no longer face the opportunity cost of idle capital as liquidity in Unified Pools is always productive.
+This creates a consistent yield floor for liquidity providers. Even during periods of low trading activity, positions continue earning lending yield. LPs no longer face the opportunity cost of idle capital as liquidity in Unified Pools is always productive.
 
 {% content-ref url="../products/unified-yield.md" %}
 [unified-yield.md](../products/unified-yield.md)
@@ -50,11 +49,8 @@ This creates a yield floor for liquidity providers. Even during periods of low t
 
 ### Additional Features
 
-Alphix’s modular hook framework enables a set of potential innovations.
+Alphix’s modular hook framework enables a set of potential future innovations.
 
 <table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td><strong>Liquidity Rebalancing</strong></td><td>Automated adjustments to maintain optimal pool ratios</td><td><a href="../.gitbook/assets/Rebalance.png">Rebalance.png</a></td></tr><tr><td><strong>Internalizing MEV</strong></td><td>Frontrunning Protection using privatized order flow</td><td><a href="../.gitbook/assets/Sandwich.png">Sandwich.png</a></td></tr><tr><td><strong>Artificial Intelligence</strong></td><td>For advanced liquidity management and yield optimization</td><td><a href="../.gitbook/assets/AI.png">AI.png</a></td></tr></tbody></table>
 
 By focusing on market-relevant, battle-tested features, Alphix ensures that every innovation enhances the LP and trader experience while maintaining deep liquidity and composability. The Alphix Hook will evolve with market trends and protocol needs.
-
-
-

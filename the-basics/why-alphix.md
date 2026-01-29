@@ -22,11 +22,13 @@ layout:
 
 # Why Alphix
 
-Decentralized Finance (DeFi) markets are evolving toward hook-based architectures (Uniswap V4, Balancer V3, PancakeSwap)**.** However, current implementations offer isolated and non-flexible innovations. As a result, LPs juggle multiple pools, traders suffer increased slippage, and new features face an immediate competitive disadvantage.
+Decentralized Finance (DeFi) markets are evolving toward hook-based architectures (Uniswap V4, Balancer V3, PancakeSwap, Ekubo)**.** In this paradigm, allocating capital in fragmented pools, where liquidity sits idle and fees remain static despite dynamic conditions, should be a thing of the past.&#x20;
+
+Yet current solutions remain isolated, complex and risk-prone. As a result, Liquidity Providers (LPs) juggle multiple pools, traders suffer increased slippage, and innovation faces an immediate competitive disadvantage.
 
 **Alphix it** introducing **Unified Pools**<mark style="color:$info;">.</mark>
 
-By building a flexible, modular hook layer on top of Uniswap V4, Alphix combines multiple features into a single pool:
+By building a simple, efficient and modular hook solution on top of Uniswap V4, Alphix combines innovation into a single pool:
 
 *   **Dynamic Fees**
 

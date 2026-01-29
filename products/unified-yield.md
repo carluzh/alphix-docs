@@ -24,9 +24,11 @@ layout:
 
 Traditional liquidity provision has a fundamental inefficiency: LP funds sit idle in the pool waiting for swaps. In a typical 24-hour period, deposited capital might only be actively used for a fraction of the time. The rest of the time, it earns nothing.
 
-Unified Yield solves this by routing idle liquidity into yield-generating vaults, allowing LPs to earn lending yield continuously while remaining fully available for swaps through Just-In-Time (JIT) accounting.
+Unified Yield solves this by routing idle liquidity into yield-generating vaults, allowing LPs to earn lending yield continuously while remaining fully available for swaps through Just-In-Time (JIT) Liquidity Providing and Flash Accounting.
 
-The result is a dual-yield position. LPs earn swap fees from trading activity AND lending yield from the underlying vaults, simultaneously, from the same capital.
+This results in a dual-yield position. LPs earn swap fees from trading activity AND lending yield from the underlying vaults, simultaneously, from the same capital. \
+\
+Because all returns are automatically reinvested, Unified Yield converts traditional LP APR into true APY. This enables a capital-efficient, “set-and-forget” liquidity strategy on top of Uniswap v4—maximizing utilization without active position management.
 
 {% hint style="info" %}
 Unified Yield positions use ERC-4626 vault shares, a tokenized representation of your deposit that automatically accrues yield.
@@ -36,7 +38,7 @@ Unified Yield positions use ERC-4626 vault shares, a tokenized representation of
 
 ### How It Works
 
-At the core of Unified Yield sits the JIT (Just-In-Time) liquidity mechanism. Here's what happens:
+At the core of Unified Yield sits the JIT liquidity mechanism. Here's what happens:
 
 {% hint style="warning" %}
 The explanation below is simplified to convey the underlying logic. The production implementation includes additional safeguards.
@@ -44,15 +46,15 @@ The explanation below is simplified to convey the underlying logic. The producti
 
 {% stepper %}
 {% step %}
-#### Deposit
+**Deposit**
 
-When you provide liquidity, your tokens are deposited into the Hook contract. The Hook immediately routes these tokens to underlying yield vaults based on the asset's yield strategy, where they begin earning lending yield.
+When you provide liquidity, your tokens are deposited into the Hook contract. The Hook immediately routes these tokens to ERC-4626 yield vaults based on the asset's yield strategy, where they begin earning lending yield.
 
-You receive ERC-4626 shares representing your position. These shares automatically appreciate as yield accrues.
+You receive Hook shares representing your position. These shares automatically appreciate as yield accrues.
 {% endstep %}
 
 {% step %}
-#### During Swaps (JIT)
+**During Swaps (JIT)**
 
 When a swap occurs, the Hook uses flash accounting to make your liquidity virtually present in the pool:
 
@@ -61,10 +63,12 @@ When a swap occurs, the Hook uses flash accounting to make your liquidity virtua
 3. **afterSwap**: Net amounts settle. Tokens received go to the vault, tokens sent come from the vault
 
 Your capital earns the swap fee while never actually leaving the yield-generating position.
+
+Additional benefit: swap fees are automatically compounded instead of sitting idle like in standard Uniswap positions.
 {% endstep %}
 
 {% step %}
-#### Withdraw
+**Withdraw**
 
 When you withdraw, the Hook burns your shares, retrieves the underlying tokens from the vault (including all accrued yield), and sends them to your wallet.
 {% endstep %}
@@ -78,7 +82,7 @@ The liquidity is only "in the pool" at the exact moment of the swap. No capital 
 
 Unified Yield positions differ from standard concentrated liquidity positions in several ways:
 
-<table data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><strong>Simplified Ranges</strong></td><td>Standard pools use full range. Stable pools use concentrated positions. No manual range management required.</td></tr><tr><td><strong>Vault Shares</strong></td><td>You receive ERC-4626 shares instead of an NFT. Shares are fungible and automatically accrue yield.</td></tr><tr><td><strong>Dual Yield</strong></td><td>Earn from two sources: swap fees from trading activity and lending yield from the underlying vaults.</td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><strong>Simplified Ranges</strong></td><td>Standard pools use full range. Stable pools use concentrated positions. No manual range management required.</td></tr><tr><td><strong>Vault Shares</strong></td><td>You receive Hook shares instead of an NFT. Shares are fungible and automatically accrue yield.</td></tr><tr><td><strong>Dual Yield</strong></td><td>Earn from two sources: swap fees from trading activity and lending yield from the underlying vaults.</td></tr></tbody></table>
 
 <details>
 
@@ -86,10 +90,11 @@ Unified Yield positions differ from standard concentrated liquidity positions in
 
 Unified Yield positions display a combined APR from multiple sources:
 
-| Component | Source |
-| --------- | ------ |
-| Swap APR | Trading fees from swaps |
-| Unified Yield APR | Average lending rate across both tokens' vaults |
+| Component         | Source                                                                                            |
+| ----------------- | ------------------------------------------------------------------------------------------------- |
+| Swap APR          | Trading fees from swaps                                                                           |
+| Unified Yield APR | Pro rata lending rate based on both tokens vaults                                                 |
+| Additional APR    | Protocol-level rewards (points) and potential ecosystem incentives (airdrops, liquidity programs) |
 
 The total APR shown is the sum of all components. Actual returns vary based on pool volume, vault rates, and market conditions.
 
@@ -131,7 +136,7 @@ Deeper liquidity. Better execution.
 
 **Protocols struggle with LP retention.** Liquidity providers constantly seek the highest yield, leading to mercenary capital that moves at any rate differential. Incentive programs become expensive arms races.
 
-**Alphix it.** Unified Yield makes Alphix pools inherently more attractive by offering dual yield. Protocols building on Alphix benefit from stickier liquidity without additional incentive spend.
+**Alphix it.** Unified Yield makes Alphix pools inherently more attractive by offering dual yield. Protocols leveraging our pools benefit from stickier liquidity without additional incentive spent.
 
 {% hint style="success" %}
 Stickier liquidity. Lower incentive costs.

@@ -28,5 +28,6 @@
 
 * [Support](more/support.md)
 * [Roadmap](more/roadmap.md)
+* [Alphix Partners](more/alphix-partners.md)
 * [Discord](https://discord.gg/NTXRarFbTr)
 * [Twitter](https://x.com/AlphixFi)

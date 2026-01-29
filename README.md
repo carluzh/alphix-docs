@@ -26,14 +26,14 @@ layout:
 # Introduction
 
 {% hint style="success" %}
-Alphix is live on **Base Mainnet**. Start earning points today.
+Alphix is live on **Base**. Start earning points [today](https://alphix.fi/).
 {% endhint %}
 
 ### What is Alphix?
 
-Alphix is a next-generation decentralized exchange (DEX) built on top of [<mark style="color:$primary;">**Uniswap V4**</mark>](https://docs.uniswap.org/contracts/v4/overview). Our mission is to become the leading platform for Hook-driven innovation by serving as a flexible layer where new products and market mechanisms can be added seamlessly without fragmenting liquidity or breaking composability.
+Alphix is a next-generation decentralized exchange (DEX) built on top of [<mark style="color:$primary;">**Uniswap V4**</mark>](https://docs.uniswap.org/contracts/v4/overview). Our mission is to become the leading platform for hook-driven innovation by serving as a composable layer that accelerates experimentation and unlocks efficient primitives for the ecosystem.&#x20;
 
-We design hooks that are flexible, customizable, and modular. This creates a single deep liquidity venue for liquidity providers, traders, and developers that evolves with market needs, instead of spawning multiple competing pools or one-off contracts.
+Alphix pools are customizable and seamlessly composable. Activity is concentrated into a single, deep and capital-efficient venue that evolve with market conditions — fixing the proliferation of competing pools that fragment liquidity, leave capital idle, and enforce static fees.
 
 ### Products
 
