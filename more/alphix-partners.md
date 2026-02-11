@@ -17,7 +17,7 @@ Alphix is more than a next-generation DEX — it’s a composable platform desig
 * **Boost Engagement & Loyalty**\
   Reward your users with protocol points, staking incentives, or ecosystem-specific benefits, all fully integrated within Alphix’s composable architecture.
 * **Security & Reliability**\
-  Partners benefit from Alphix’s continuous security posture: audits, AI-assisted analysis (Sherlock AI, Olympix), fail-safes, and upcoming bug bounty programs ensure your pools are robust and trustworthy.
+  Partners benefit from Alphix’s continuous security posture: audits, AI-assisted analysis (Sherlock AI, Olympix), fail-safes, and our bug bounty program ensure your pools are robust and trustworthy.
 * **Flexible Collaboration Models**\
   Whether you want a branded pool for your community, a yield-integrated strategy, or co-marketing initiatives, Alphix works with you to design a solution that maximizes impact while minimizing friction.
 

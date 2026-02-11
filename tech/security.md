@@ -23,8 +23,10 @@ We also leveraged [Sherlock AI](https://sherlock.xyz/solutions/ai) as part of ou
 
 Even after our audits, we continue to leverage all available tools to ensure Alphix remains secure and robust, including built-in fail-safes and monitoring mechanisms.\
 \
-If you notice anything unusual or have security concerns, don’t hesitate to [reach out](https://discord.com/invite/NTXRarFbTr). We are also launching a bug bounty program soon, in collaboration with Sherlock, to reward responsible vulnerability reporting.
+If you notice anything unusual or have security concerns, don’t hesitate to [reach out](https://discord.com/invite/NTXRarFbTr).&#x20;
+
+Finally, we have partnered with Sherlock to launch a **$30,000** [**bug bounty program**](https://audits.sherlock.xyz/bug-bounties/213) for critical vulnerabilities, reinforcing our commitment to security beyond audits. We invite the security research community to help us keep Alphix safe.
 
 ### Contact <a href="#contact" id="contact"></a>
 
-For any non-smart contract-related security issues, please report to [security@alphix.fi](mailto:security@alphix.fi)
+For any issues — whether smart contract or non-smart contract-related — please report them on our [discord](https://discord.com/invite/NTXRarFbTr) or via email at [security@alphix.fi](mailto:security@alphix.fi)

@@ -6,14 +6,9 @@
 Alphix is live on Base Mainnet.
 {% endhint %}
 
-**Active Pools**
+**Active Pools (more to come!)**
 
-| Pool | Status |
-| ---- | ------ |
-| ETH/USDC | Live |
-| USDC/USDS | Live |
-
-Contract addresses will be published here soon.
+<table><thead><tr><th width="219.88092041015625">Pool</th><th width="99.517822265625">Status</th><th>Hook Address</th></tr></thead><tbody><tr><td>ETH/USDC</td><td>Live</td><td><a href="https://basescan.org/address/0x831CfDf7c0E194f5369f204b3DD2481B843d60c0">0x831CfDf7c0E194f5369f204b3DD2481B843d60c0</a></td></tr><tr><td>USDS/USDC</td><td>Live</td><td><a href="https://basescan.org/address/0x0e4b892Df7C5Bcf5010FAF4AA106074e555660C0">0x0e4b892Df7C5Bcf5010FAF4AA106074e555660C0</a></td></tr></tbody></table>
 
 ***
 
