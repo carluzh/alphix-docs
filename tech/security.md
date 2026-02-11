@@ -25,7 +25,7 @@ Even after our audits, we continue to leverage all available tools to ensure Alp
 \
 If you notice anything unusual or have security concerns, don’t hesitate to [reach out](https://discord.com/invite/NTXRarFbTr).&#x20;
 
-Finally, we have partnered with Sherlock to launch a **$30,000** [**bug bounty program**](https://audits.sherlock.xyz/bug-bounties/213) for critical vulnerabilities, reinforcing our commitment to security beyond audits. We invite the security research community to help us keep Alphix safe.
+We have partnered with Sherlock to launch a **$30,000** [**bug bounty program**](https://audits.sherlock.xyz/bug-bounties/213) for critical vulnerabilities, reinforcing our commitment to security beyond audits. We invite the security research community to help us keep Alphix safe.
 
 ### Contact <a href="#contact" id="contact"></a>
 
