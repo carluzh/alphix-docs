@@ -1,23 +1,6 @@
 ---
 cover: ../.gitbook/assets/Support.png
 coverY: 0
-layout:
-  width: default
-  cover:
-    visible: true
-    size: hero
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Support
@@ -53,6 +36,6 @@ layout:
 
 #### Contact Us
 
-If you run into any problems or have questions that haven't been answered above, join our  [Discord](https://discord.gg/NTXRarFbTr) for instant support. We utilize a ticketing system to ensure we can tackle every problem and nothing gets lost.
+If you run into any problems or have questions that haven't been answered above, join our [Discord](https://discord.gg/NTXRarFbTr) for instant support. We utilize a ticketing system to ensure we can tackle every problem and nothing gets lost.
 
 For any other concerns please use our general contact - <mark style="color:$info;">contact@alphix.fi</mark>

@@ -1,25 +1,9 @@
 ---
 description: >-
-  Learn how Points work, how they're distributed, and how to maximize your rewards.
+  Learn how Points work, how they're distributed, and how to maximize your
+  rewards.
 cover: ../.gitbook/assets/QuickStart.png
 coverY: 0
-layout:
-  width: default
-  cover:
-    visible: true
-    size: hero
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Earn Points
@@ -34,11 +18,11 @@ Points are earned through protocol activity:
 
 ### Distribution Schedule
 
-| Detail | Value |
-| ------ | ----- |
+| Detail              | Value          |
+| ------------------- | -------------- |
 | Weekly Distribution | 100,000 Points |
-| Snapshots | Hourly |
-| Season 0 Duration | 3 months |
+| Snapshots           | Hourly         |
+| Season 0 Duration   | 3 months       |
 
 Points are distributed weekly based on your share of protocol activity. Snapshots are taken hourly to ensure accurate tracking of swaps and LP positions.
 

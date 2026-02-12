@@ -1,25 +1,9 @@
 ---
 description: >-
-  Learn how to provide liquidity on Alphix, choose a strategy, and manage your positions.
+  Learn how to provide liquidity on Alphix, choose a strategy, and manage your
+  positions.
 cover: ../.gitbook/assets/QuickStart.png
 coverY: 0
-layout:
-  width: default
-  cover:
-    visible: true
-    size: hero
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Add Liquidity
@@ -32,7 +16,7 @@ This guide walks through creating a liquidity position on Alphix. To get started
 {% step %}
 **Select Pool**
 
-![](../.gitbook/assets/Select.jpg)
+![](../.gitbook/assets/1.png)
 
 Choose which pool to provide liquidity for. Each pool displays its current APR, combining swap fees and lending yield.
 {% endstep %}
@@ -40,7 +24,7 @@ Choose which pool to provide liquidity for. Each pool displays its current APR, 
 {% step %}
 **Choose Strategy**
 
-![](../.gitbook/assets/Select.jpg)
+![](../.gitbook/assets/2.png)
 
 We propose users select **Unified Yield** to LP into Unified Pools. Your liquidity earns swap fees while idle capital is deployed to lending markets. Stable pools use concentrated positions. Standard pools use full range.
 
@@ -52,7 +36,7 @@ We propose users select **Unified Yield** to LP into Unified Pools. Your liquidi
 {% step %}
 **Enter Deposit Amounts**
 
-![](../.gitbook/assets/Select.jpg)
+![](../.gitbook/assets/3.png)
 
 Input how much of each token to deposit. The interface shows your wallet balance and auto-fills the corresponding token amount.
 
@@ -64,11 +48,10 @@ Single-token deposits are coming soon.
 {% step %}
 **Review and Create**
 
-![](../.gitbook/assets/Select.jpg)
+![](../.gitbook/assets/4.png)
 
 Review your position details, approve the tokens, and create your position. Once confirmed, you'll start earning immediately.
 {% endstep %}
-
 {% endstepper %}
 
 ### Managing Positions
